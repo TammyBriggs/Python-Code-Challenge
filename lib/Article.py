@@ -6,6 +6,7 @@ class Article:
         self._magazine = magazine
         self._title = title
         Article.instances.append(self)
+        author.add_article(self)
 
     def title(self):
         return self._title
