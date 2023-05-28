@@ -9,6 +9,12 @@ class Article:
 
     def title(self):
         return self._title
+    
+    def author(self):
+        return self._author
+
+    def magazine(self):
+        return self._magazine
 
     @classmethod
     def all(cls):
