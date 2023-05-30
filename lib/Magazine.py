@@ -51,4 +51,12 @@ class Magazine:
             else:
                 author_counts[author] = 1
         return [author for author, count in author_counts.items() if count > 2]
-    pass
+
+# Instances
+# magazine1 = Magazine("Fendy", "Beauty")
+# magazine2 = Magazine("Forbes", "Finance")
+
+# print(magazine2.name())
+# print(magazine2.category()) 
+
+# print(Magazine.all())
